@@ -15,10 +15,12 @@ Welcome to my personal cybersecurity portfolio! This project is designed to show
 
 
 
-├── index.html       # Main HTML file with sections like About, Skills, Projects Certifications <br>
-├── style.css        # Custom styles (fonts, animations, themes)<br>
-├── script.js        # Interactive features and UI enhancements<br>
-├── /img             # All assets like logos and badge icons<br>
+```
+├── index.html       # Main HTML file containing sections like About, Skills, Projects, and Certifications  
+├── style.css        # Custom styles for fonts, animations, and themes  
+├── script.js        # JavaScript for interactive features and UI enhancements  
+├── /img/            # Directory for assets such as logos and badge icons  
+```
 
 
 ## 🎨 Features
