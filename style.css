@@ -189,6 +189,60 @@ body {
     50% { background-color: var(--color-blue-400); }
 }
 
+/* Styling for the <h2> element */
+.text-2xl {
+    font-size: 1.5rem; /* 24px */
+}
+@media (min-width: 768px) {
+    .md\:text-3xl {
+        font-size: 1.875rem; /* 30px */
+    }
+}
+.text-gray-300 {
+    color: #d1d5db; /* Light gray */
+}
+.mb-6 {
+    margin-bottom: 1.5rem; /* 24px */
+}
+
+/* Styling for the <span class="typing-effect"> element */
+.typing-effect {
+    font-size: 2rem; /* 20px */
+    color: #60a5fa; /* Light blue */
+    animation: typing 2s steps(22) infinite;
+}
+
+/* Styling for the <span class="cursor"> element */
+.cursor {
+    display: inline-block;
+    background-color: #60a5fa; /* Light blue */
+    width: 2px; /* Adjust width */
+    height: 1.2em; /* Match text height */
+    margin-left: 2px;
+    animation: blink 1s step-end infinite;
+    vertical-align: bottom;
+}
+
+/* Keyframes for the blinking cursor animation */
+@keyframes blink {
+    from, to {
+        background-color: transparent;
+    }
+    50% {
+        background-color: #60a5fa; /* Light blue */
+    }
+}
+
+/* Keyframes for the typing effect (if defined) */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
 /* Buttons */
 .btn {
     display: inline-flex;
