@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj Apar - Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+        }
+        /* Custom styles for the resume layout to ensure consistent column width */
+        .resume-container {
+            max-width: 8.5in; /* Standard letter paper width */
+            min-height: 11in; /* Standard letter paper height */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .left-column {
+            flex: 0 0 35%;
+            max-width: 35%;
+            box-shadow: 4px 0 12px -4px #d1d5db; /* subtle gray shadow on the right */
+            z-index: 1;
+            background: #f3f4f6; /* Light gray fill for the left side */
+        }
+        .right-column {
+            flex: 0 0 65%; /* Approximately 65% width for the right column */
+            max-width: 65%;
+        }
+        @media (max-width: 768px) {
+            .left-column, .right-column {
+                flex: 1 1 100%; /* Full width on smaller screens */
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body class="flex justify-center items-start py-8">
+    <div class="resume-container bg-white p-8 rounded-lg flex flex-col md:flex-row">
+        <div class="left-column pr-6 pb-6 md:pb-0 border-b md:border-b-0 md:border-r border-gray-200">
+            <h1 class="text-3xl font-bold text-gray-800 mb-4">Suraj Apar</h1>
+
+            <div class="mb-6 text-sm text-gray-700">
+                <p>Pune, IN 431132</p>
+                <p>aparsuraj@gmail.com</p>
+                <p>+919322228397</p>
+                <p>Linkedin: <a href="https://www.linkedin.com/in/surajapar/" target="_blank" class="text-blue-600 hover:underline">www.linkedin.com/in/surajapar/</a></p>
+                <p>WWW: <a href="https://surajapar.github.io/Personal-Portfolio/" target="_blank" class="text-blue-600 hover:underline">surajapar.github.io/Personal-Portfolio/</a></p>
+            </div>
+
+            <div class="mb-6">
+                <p class="text-sm text-gray-700 leading-relaxed">
+                    Completed foundational cybersecurity training through reputable platforms including TryHackMe, Cisco Networking Academy, and LinkedIn Learning. Gained hands-on experience in general cyber operations, Linux, security analysis, threat detection, and network defense. Demonstrated understanding of key cybersecurity principles and terminology, laying a strong groundwork for advanced technical learning and real-world application.
+                </p>
+            </div>
+
+            <h2 class="text-xl font-semibold text-gray-800 mb-3">Skills</h2>
+            <ul class="list-none pl-0 text-sm text-gray-700">
+                <li class="mb-1 flex items-center"><span class="mr-2 text-gray-500">&bull;</span> Cybersecurity</li>
+                <li class="mb-1 flex items-center"><span class="mr-2 text-gray-500">&bull;</span> Information Security Awareness</li>
+                <li class="mb-1 flex items-center"><span class="mr-2 text-gray-500">&bull;</span> Threat Analysis - <span class="font-medium ml-1">Fluent</span></li>
+                <li class="mb-1 flex items-center"><span class="mr-2 text-gray-500">&bull;</span> System Safeguards - <span class="font-medium ml-1">Expert</span></li>
+                <li class="mb-1 flex items-center"><span class="mr-2 text-gray-500">&bull;</span> Network Defense - <span class="font-medium ml-1">Fluent</span></li>
+                <li class="mb-1 flex items-center"><span class="mr-2 text-gray-500">&bull;</span> Security Analysis - <span class="font-medium ml-1">Fluent</span></li>
+                <li class="mb-1 flex items-center"><span class="mr-2 text-gray-500">&bull;</span> Python - <span class="font-medium ml-1">Fluent</span></li>
+                <li class="mb-1 flex items-center"><span class="mr-2 text-gray-500">&bull;</span> Linux - <span class="font-medium ml-1">Fluent</span></li>
+                <li class="mb-1 flex items-center"><span class="mr-2 text-gray-500">&bull;</span> Burp Suite - <span class="font-medium ml-1">Fluent</span></li>
+            </ul>
+        </div>
+
+        <div class="right-column pl-6 pt-6 md:pt-0">
+            <h2 class="text-xl font-semibold text-gray-800 mb-3">Websites, Portfolios, Profiles</h2>
+            <ul class="list-none pl-0 text-sm text-gray-700 mb-6">
+                <li class="mb-1"><a href="https://surajapar.github.io/Personal-Portfolio/" target="_blank" class="text-blue-600 hover:underline">surajapar.github.io/Personal-Portfolio/</a></li>
+                <li class="mb-1"><a href="https://github.com/surajapar" target="_blank" class="text-blue-600 hover:underline">github.com/surajapar</a></li>
+            </ul>
+
+            <h2 class="text-xl font-semibold text-gray-800 mb-3">Professional Experience</h2>
+            <div class="mb-6">
+                <h3 class="text-lg font-medium text-gray-800">Intern</h3>
+                <p class="text-sm text-gray-700">
+                    <span class="font-semibold">Mastercard - Cybersecurity Job Simulation</span>, Pune, India (Remote) | December 2024 - December 2024
+                </p>
+                <ul class="list-disc pl-5 text-sm text-gray-700 mt-2">
+                    <li class="mb-1">Completed a job simulation where I served as an analyst on Mastercard's Security Awareness Team</li>
+                    <li class="mb-1">Helped identify and report security threats such as phishing</li>
+                    <li class="mb-1">Analyzed and identified which areas of the business needed more robust security training and implemented training courses and procedures for those teams</li>
+                </ul>
+            </div>
+
+            <h2 class="text-xl font-semibold text-gray-800 mb-3">Education</h2>
+            <div class="mb-6">
+                <h3 class="text-lg font-medium text-gray-800">Bachelor of Science in Cyber And Digital Science</h3>
+                <p class="text-sm text-gray-700">
+                    <span class="font-semibold">Dr. D.Y. Patil Arts, Commerce & Science College</span>, Pune, India | Expected in May 2028
+                </p>
+                <p class="text-sm text-gray-700 mt-1">First Semester SGPA: 8.27</p>
+            </div>
+
+            <h2 class="text-xl font-semibold text-gray-800 mb-3">Certifications</h2>
+            <ul class="list-none pl-0 text-sm text-gray-700 mb-6">
+                <li class="mb-3">
+                    <p class="font-medium">Cyber Security 101 Certificate - TryHackMe</p>
+                    <p>Issued: Mar 2025 | Credential ID: THM-OMMISFFVOC</p>
+                    <p class="text-xs text-gray-600">Skills: General Cyber, Linux</p>
+                </li>
+                <li class="mb-3">
+                    <p class="font-medium">Pre Security Certificate - TryHackMe</p>
+                    <p>Issued: Jan 2025 | Credential ID: THM-FKRV7GZBUO</p>
+                    <p class="text-xs text-gray-600">Skills: General Cyber, Security Analysis</p>
+                </li>
+                <li class="mb-3">
+                    <p class="font-medium">Cybersecurity Awareness: Cybersecurity Terminology - LinkedIn Learning</p>
+                    <p>Issued: Dec 2024 | Credential ID: fb9cccf39d35...</p>
+                    <p class="text-xs text-gray-600">Skills: Information Security Awareness</p>
+                </li>
+                <li class="mb-3">
+                    <p class="font-medium">Introduction to Cybersecurity - Cisco Networking Academy</p>
+                    <p>Issued: Dec 2024</p>
+                    <p class="text-xs text-gray-600">Skills: Network Defense, Threat Analysis, System Safeguards</p>
+                </li>
+            </ul>
+
+            <h2 class="text-xl font-semibold text-gray-800 mb-3">Languages</h2>
+            <ul class="list-none pl-0 text-sm text-gray-700 mb-6">
+                <li class="mb-1 flex items-center"><span class="mr-2 text-gray-500">&bull;</span> Marathi - <span class="font-medium ml-1">Advanced (C1)</span></li>
+                <li class="mb-1 flex items-center"><span class="mr-2 text-gray-500">&bull;</span> Hindi - <span class="font-medium ml-1">Elementary (A2)</span></li>
+                <li class="mb-1 flex items-center"><span class="mr-2 text-gray-500">&bull;</span> English - <span class="font-medium ml-1">Beginner (A1)</span></li>
+            </ul>
+
+            <h2 class="text-xl font-semibold text-gray-800 mb-3">Interests</h2>
+            <ul class="list-none pl-0 text-sm text-gray-700">
+                <li class="mb-1 flex items-center"><span class="mr-2 text-gray-500">&bull;</span> Security Research</li>
+                <li class="mb-1 flex items-center"><span class="mr-2 text-gray-500">&bull;</span> Ethical Hacking</li>
+                <li class="mb-1 flex items-center"><span class="mr-2 text-gray-500">&bull;</span> Penetration Testing</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
