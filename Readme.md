@@ -23,14 +23,6 @@ Welcome to my personal cybersecurity portfolio! This project is designed to show
 ```
 
 
-## 🎨 Features
-
-- **Dark Mode First Design** using Tailwind CSS<br>
-- **Custom Fonts** with `Space Mono` for a terminal-inspired aesthetic<br>
-- **Animated UI**: Smooth fade-ins and hover effects<br>
-- **Certifications & Badges** section with card-style display<br>
-- **Responsive Layout**: Works on desktop, tablet, and mobile<br>
-
 
 
 ## 🏅 Certifications & Badges
